@@ -17,6 +17,9 @@ footer {
 .background-container-footer {
     background-color: rgba(44,62,80,255);
 }
+.background-green {
+    background-color: rgba(26,188,156,255);
+}
 
 .color-col {
     height: 80px;
