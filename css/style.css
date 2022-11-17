@@ -10,7 +10,6 @@ header {
 }
 
 footer {
-    height: 300px;
     background-color: rgba(58,84,109,255);
 }
 
@@ -22,17 +21,6 @@ footer {
     background-color: rgba(26,188,156,255);
 }
 
-.content {
-    height: 80px;
-    width: 100%;
-    background-color: orange;
-}
-
-.color-col-second-section {
-    height: 350px;
-    width: 100%;
-    background-color: orange
-}
 
 .my-border {
     outline: 1px solid black;
@@ -77,3 +65,8 @@ footer {
     width: 100%
 }
 
+.my-outline-light {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 50%;
+}
