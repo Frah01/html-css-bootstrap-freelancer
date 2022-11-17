@@ -54,10 +54,16 @@ footer {
     width: 200px;
 }
 
-.my-bar-span {
+.my-bar-star {
     width: 100px;
     height: 5px;
     background-color: white;
+    border-radius: 5px;
+}
+.my-bar-star-black {
+    width: 100px;
+    height: 5px;
+    background-color: black;
     border-radius: 5px;
 }
 
@@ -65,3 +71,9 @@ footer {
     font-weight: bold;
     color: white;
 }
+
+#first-section img {
+    border-radius: 10px;
+    width: 100%
+}
+
