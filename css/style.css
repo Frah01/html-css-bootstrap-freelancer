@@ -5,7 +5,7 @@
 }
 
 header {
-    height: 80px;
+    height: 60px;
     background-color: rgba(44,62,80,255);
 }
 
@@ -40,4 +40,12 @@ footer {
 
 .height {
     height: 500px;
+}
+
+.my-color-white {
+    color: white;
+}
+
+.my-flex-end {
+    justify-content: flex-end;
 }
