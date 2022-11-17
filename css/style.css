@@ -6,7 +6,15 @@
 
 header {
     height: 60px;
+    width: 100%;
     background-color: rgba(44,62,80,255);
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+
+.my-margin-top-60 {
+    margin-top: 60px;
 }
 
 .my-nav-dropdown-background {
