@@ -72,3 +72,9 @@ footer {
     border-radius: 50%;
 }
 
+.my-border-white {
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
