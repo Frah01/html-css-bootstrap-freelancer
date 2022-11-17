@@ -49,3 +49,19 @@ footer {
 .my-flex-end {
     justify-content: flex-end;
 }
+
+.background-green img {
+    width: 200px;
+}
+
+.my-bar-span {
+    width: 100px;
+    height: 5px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.my-text-bold {
+    font-weight: bold;
+    color: white;
+}
