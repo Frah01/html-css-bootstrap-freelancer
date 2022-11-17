@@ -130,10 +130,35 @@
         <!-- TERZA SEZIONE -->
         <section class="my-5" >
             <div class="container" >
-                <div class="row row-cols-1 g-3" >
-                    <div class="col" ><div class="content my-border"></div></div>
-                    <div class="col" ><div class="content my-border"></div></div>
-                    <div class="col" ><div class="content my-border"></div></div>
+                <div class="row row-cols-1 g-3 text-center" >
+                    <div class="col" >
+                        <h1>CONTACT ME</h1>
+                        <div class="d-flex justify-content-center align-items-center" >
+                            <div class="my-bar-star-black mx-3"></div><i class="fa-solid fa-star fa-2x"></i><div class="my-bar-star-black mx-3"></div>
+                        </div>
+                    </div>
+                    <div class="col" >
+                        <div class="d-flex justify-content-start" >
+                            <form action="server">
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" placeholder="Name" aria-label="Username" aria-describedby="basic-addon1">
+                                  </div>
+                                <div class="input-group mb-3">
+                                    <input type="email" class="form-control" id="email" placeholder="Email Addres" name="email-utente" >
+                                </div>
+                                <div class="input-group mb-3" >
+                                    <input type="tel" class="form-control" id="phone" placeholder="Phone Number" name="phone" >
+                                </div>
+                                <div class="input-group mb-3" >
+                                    <textarea class="form-control" name="message" placeholder="Message" id="" cols="200" rows="10"></textarea>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                    <div class="col d-flex justify-content-start" >
+                        <button type="button" class="btn btn-success">Send</button>
+                    </div>
                 </div>
             </div>
         </section>
